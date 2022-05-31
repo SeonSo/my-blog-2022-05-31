@@ -1,11 +1,8 @@
-import * as React from "react";
+import React from "react";
 
-// styles
-
-// markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main>
       <title>Home Page</title>
       <h1>Congratulations</h1>
     </main>
