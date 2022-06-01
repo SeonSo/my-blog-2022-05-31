@@ -1,12 +1,14 @@
 import React from "react";
+import Layout from "../components/layout";
 
 function AboutPage() {
   return (
-    <main>
+    <Layout>
       <title> 자기소개 </title>
       <h1> 자기소개 페이지 입니다. </h1>
-    </main>
+      <p>안녕하세요 저는 이 사이트의 개발자입니다.</p>
+    </Layout>
   );
 }
 
-report default AboutPage;
+export default AboutPage;
