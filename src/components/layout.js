@@ -30,21 +30,25 @@ const Layout = ({ pageTitle, children }) => {
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
       <nav>
         <ul className={navLinks}>
+          <section>|</section>
           <li className={navLinkItem}>
             <Link className={navLinkText} to="/">
               Home
             </Link>
           </li>
+          <section>|</section>
           <li className={navLinkItem}>
             <Link className={navLinkText} to="/about">
               About
             </Link>
           </li>
+          <section>|</section>
           <li className={navLinkItem}>
             <Link className={navLinkText} to="/blog">
               Blog
             </Link>
           </li>
+          <section>|</section>
         </ul>
       </nav>
 

@@ -1,7 +1,6 @@
 .container {
   margin: auto;
   max-width: 500px;
-  font-family: sans-serif;
 }
 
 .heading {
@@ -12,6 +11,7 @@
   display: flex;
   list-style: none;
   padding-left: 0;
+  justify-content: flex-end;
 }
 
 .nav-link-item {
@@ -20,11 +20,19 @@
 
 .nav-link-text {
   color: black;
+  text-decoration:none;
+  text-align: center;
 }
 
 .site-title{
-  color: gray;
+  color:darkcyan;
   font-size: 3rem;
   font-weight: 700;
   margin: 3rem 0;
+  text-align: center;
+}
+
+nav > ul > section {
+  display:inline-block;
+  width:30px;
 }
